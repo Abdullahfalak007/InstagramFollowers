@@ -1,0 +1,22 @@
+/* In your tailwind.css or custom CSS file */
+/* .btn-custom {
+  @apply bg-indigo-600 text-white py-3 px-6 border-none uppercase text-center cursor-pointer transition duration-300 ease-in-out;
+}
+
+.btn-custom:hover,
+.btn-custom:active {
+  @apply shadow-lg transform scale-95;
+} */
+@keyframes gradient-x {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-x {
+  background-size: 200% 200%;
+  animation: gradient-x 3s linear infinite;
+}

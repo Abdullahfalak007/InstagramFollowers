@@ -1,0 +1,16 @@
+[
+  { "amount": 50, "label": "Save 50%" },
+  { "amount": 100, "label": "Save 50%", "highlighted": true },
+  { "amount": 300, "label": "Save 50%" },
+  { "amount": 500, "label": "Save 50%" },
+  { "amount": 1000, "label": "Save 50%" },
+  { "amount": 2500, "label": "Save 50%" },
+  { "amount": 5000, "label": "Save 50%" },
+  { "amount": 10000, "label": "Save 50%" },
+  { "amount": 20000, "label": "Save 50%" },
+  { "amount": 40000, "label": "Save 50%" },
+  { "amount": 50000, "label": "Save 50%" },
+  { "amount": 100000, "label": "Save 50%" },
+  { "amount": 200000, "label": "Save 50%" },
+  { "amount": 400000, "label": "Save 50%" }
+]

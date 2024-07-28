@@ -10,10 +10,10 @@ import Header from "./components/Header";
 import "./App.css";
 import Footer from "./components/Footer";
 import Otherservices from "./Otherservices";
-import Threads from "./Threads";
-import InstagramComments from "./Pages/BuyFollowers";
+import Threads from "./Threads"; // Import the Threads component
 import BuyFollowers from "./Pages/BuyFollowers";
 import GetStarted from "./Pages/GetStarted";
+import ProfileDisplay from "./Pages/ProfileDisplay";
 
 const App = () => {
   const theme = {
@@ -37,6 +37,7 @@ const App = () => {
       tab: "998px",
     },
   };
+
   return (
     <ThemeProvider theme={theme}>
       <Router>
@@ -51,6 +52,8 @@ const App = () => {
           <Route path="/singleproduct/:id" element={<Singleproduct />} />
           <Route path="/buy" element={<BuyFollowers />} />
           <Route path="/getstarted" element={<GetStarted />} />
+          <Route path="/profile/:username" element={<ProfileDisplay />} />{" "}
+          {/* Add the new route */}
         </Routes>
         <Footer />
       </Router>
